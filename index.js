@@ -45,7 +45,7 @@ request(
       default:
         break;
     }
-    const id = JSON.stringify(object.id);
+    const id = object.id;
     //requent is sent to server to validate result
     request.post(
       {
