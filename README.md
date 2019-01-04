@@ -2,12 +2,26 @@
 
 ## Steps to running the app
 
-#### Verify if you have node installed on your machine
+#### 1. Download the app to your local machine
+
+```terminal
+git clone git@github.com:jaCod3r/node-proj.git
+```
+
+or
+
+```
+1. Download the zip file
+2. Extract it
+3. cd node_proj
+```
+
+#### 2. Verify if you have node installed on your machine
 ```terminal
 npm --version
 ```
 
-#### To run the app 
+#### 3. To run the app 
 ```terminal
 npm start
 ```

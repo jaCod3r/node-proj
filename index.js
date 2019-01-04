@@ -10,7 +10,7 @@ request(
     const object = JSON.parse(body);
     let result;
 
-    //check for the operation needed to be preformed
+    // check for the operation needed to be preformed
     switch (object.operation) {
       case 'addition':
         console.log(chalk.cyan(`Performing addition with values of ${object.left} + ${object.right}`));
@@ -46,7 +46,7 @@ request(
         break;
     }
     const id = object.id;
-    //requent is sent to server to validate result
+    // requent is sent to server to validate result
     request.post(
       {
         uri: 'https://interview.adpeai.com/api/v1/submit-task',
