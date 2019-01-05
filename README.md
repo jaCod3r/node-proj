@@ -8,7 +8,7 @@
 git clone git@github.com:jaCod3r/node-proj.git
 ```
 
-#### 3. Run the app 
+#### 2. Run the app 
 ```terminal
 npm start
 ```
